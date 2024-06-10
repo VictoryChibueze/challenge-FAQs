@@ -15,3 +15,5 @@ function toggleDisplay() {
 paragraphEl.classList.add("hide");
 
 detailsSummaryEl.addEventListener("click", toggleDisplay);
+
+async function fetchData() {}
