@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+main {
+  font-family: "Darker Grotesque", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.details {
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  background-color: #f7f5f5;
+  padding: 2rem;
+}
+.details span {
+  font-size: 5rem;
+  text-align: center;
+}
+
+section {
+  min-width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.details-summary {
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+.icon {
+  font-size: 3.5rem;
+  color: #666;
+}
+
+.details p {
+  font-size: 1.5rem;
+  border-top: 1px solid #dcdcdc;
+}
+.hide {
+  display: none;
+}
